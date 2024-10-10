@@ -1,15 +1,15 @@
 //Object literal
 
-// const employee =  {
-//     name : 'vishal',
-//     age: 22,
-//     'is Active': true,
-//     getEmployeeInfo: function(city){
-//        return `Employee name is ${this.name} and status is ${this.isActive} from ${city}` 
-//     }
-// }
+const employee =  {
+    name : 'vishal',
+    age: 22,
+    'is Active': true,
+    getEmployeeInfo: function(city){
+       return `Employee name is ${this.name} and status is ${this.isActive} from ${city}` 
+    }
+}
 
-// employee.project = 'Coty';
+employee.project = 'Coty';
 // employee.age = 'hhjlk';
 
 // console.log(employee.getEmployeeInfo('Bangalore'))
@@ -17,13 +17,18 @@
 
 //Enhanced object literal
 
-let name = 'vinoth';
-let salary = 500;
+// let name = 'vinoth';
+// let salary = 500;
 
-const person ={
-    fname:name,salary
+// const person ={
+//     fname:name,salary
+// }
+
+// console.log(person)
+
+
+//for In
+
+for(let prop in employee) {
+    console.log(`${prop} - ${employee[prop]}`)
 }
-
-console.log(person)
-
-
