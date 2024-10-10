@@ -10,6 +10,9 @@ const employee =  {
 }
 
 employee.project = 'Coty';
+employee.age = 'hhjlk';
 
 console.log(employee.getEmployeeInfo('Bangalore'))
-console.log(employee['is Active'])
+console.log(employee.age)
+
+
