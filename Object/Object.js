@@ -3,9 +3,13 @@
 const employee =  {
     name : 'vishal',
     age: 22,
-    isActive: true
+    'is Active': true,
+    getEmployeeInfo: function(city){
+       return `Employee name is ${this.name} and status is ${this.isActive} from ${city}` 
+    }
 }
 
 employee.project = 'Coty';
 
-console.log(employee.name)
+console.log(employee.getEmployeeInfo('Bangalore'))
+console.log(employee['is Active'])
