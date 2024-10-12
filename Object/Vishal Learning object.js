@@ -10,6 +10,19 @@ const employe = {
 }
 
 console.log(employe.getPersonInfo('Google'));
+
+
+
+//This code is a for...in loop used to iterate over all the enumerable properties of the employe object. Here's a short explanation:
+
+//Prop is a variable who is stoeing the all key of object 
+//in this code we are assigning the employe value in prop variable
+//if you want to get the value you shoud alway remember to use ${prop} - ${employe[prop]} this syntex first is key then second is value
+
+
+for (let prop in employe) {
+    console.log(`${prop} - ${employe[prop]}`)
+}
 // console.log(employe)
 
 
