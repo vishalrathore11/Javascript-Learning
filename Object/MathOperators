@@ -1,0 +1,70 @@
+//Programe for Addition '+'
+
+var a = 2;
+var b = 4;
+
+let addition = a + b;
+
+console.log(addition);
+
+
+//programe of Subtraction '-'
+
+var c = 20;
+var d = 10;
+
+let subtracTion = c - d;
+
+console.log(subtracTion);
+
+//programe of Multiplication '*'
+
+var e = 2;
+var f = 4;
+
+let multiPlication = e * f;
+
+console.log(multiPlication);
+
+
+//programe of Division '/'
+
+var g = 13;
+var h = 2;
+
+let diviSion = g / h;
+
+console.log(diviSion);
+
+
+//programe of Modulus '%'
+
+var I = 10;
+var J = 3;
+
+let moDuius = I % J;
+
+console.log(moDuius);
+
+
+//programe of  Increment '++'
+
+var IncreMent = 20;IncreMent++;
+
+console.log(IncreMent);
+
+
+//programe of Decrement '--
+
+
+var decreMent = 100;decreMent--;
+
+console.log(decreMent)
+
+
+
+
+
+
+
+
